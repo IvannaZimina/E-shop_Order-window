@@ -1,0 +1,59 @@
+{ 
+    "type" : "object",
+    "properties" : {
+        "addName": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 100
+        },
+        "addPhone": {
+            "type": "string",
+            "pattern": "^[0-9]{1,12}$",
+            "minLength": 1
+        },
+        "addEmail": {
+            "type": "string",
+            "pattern": "^([a-zA-Z0-9]{1,30}\\.[a-zA-Z0-9]{1,30})|([a-zA-Z0-9]{1,30})@[a-z]{1,10}\\.[a-z]{1,5}$",
+            "maxLength": 100
+        },
+        "order" : { 
+            "type" : "string",
+            "items" : {
+                "type" : "string",
+                "properties": {
+                    "id": {
+                        "type": "string",
+                        "minLength": 21,
+                        "maxLength": 21
+                    },
+                    "name": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 100
+                    },
+                    "price": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 10000
+                    },
+                    "image": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 200
+                    },
+                    "count": {
+                        "type": "string",
+                        "maxLength": 200
+                    }
+                },
+                "additionalProperties": false
+            }
+        },
+        "amount": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 100000
+
+        }
+    }
+}

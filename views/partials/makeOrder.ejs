@@ -1,0 +1,51 @@
+<div class="orderForm closed">
+    <div class="formWindow">
+
+        <div class="nameOrderWindow">
+            <h4>My order</h4>
+            <button type="button" class="btn-flat closedFormWindow">X</button>
+        </div>
+
+        <form action="" method="POST" name="makeOrder" class="orderFields">
+
+            <div class="buscket">
+                <table>
+                    <thead class="headOfTable">
+                        <tr>
+                            <th>View</th>
+                            <th>Name</th>
+                            <th>Price, &#x20b4;</th>
+                            <th>Count</th>
+                            <th>Amount, &#x20b4;</th>
+                            <th>Remove</th>
+                        </tr>
+                    </thead>
+                    <tbody class="bodyOfTable"></tbody>
+                </table>
+            </div>
+            
+            <div class="payAmount">Сума до сплати, &#x20b4; <span class="totalAmount"></span></div>
+
+            <div class="clientFields">
+                <div class="nameInput">
+                    <img src="/images/account-icon.svg" alt="accountIcon">
+                    <input type="text" placeholder="Ivanov" name="addName" pattern="^[A-Za-z]{1,50}$" required>
+                </div>
+
+                <div class="phoneInput">
+                    <img src="/images/phone-icon.svg" alt="phoneIcon">
+                    <input type="number" placeholder="38XXXXXXXXXX" name="addPhone" pattern="/\d{1,12}/" required>
+                </div>
+
+                <div class="emailInput">
+                    <img src="/images/email-icon.svg" alt="emailIcon">
+                    <input type="email" placeholder="test@gmail.com" name="addEmail" pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z]+(?:\.[a-zA-Z]+)*$">
+                </div>
+            </div>
+            
+            <button type="submit" class="btn sendFormWindow">Send order</button>
+
+            <div class="sendFormBlock"></div>
+        </form>
+    </div>
+</div>

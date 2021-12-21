@@ -1,0 +1,298 @@
+* {
+    font-family:'Courier New', Courier, monospace;
+}
+
+::before::after {
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    background: #263238;
+    position: fixed;
+    z-index: 1000;
+
+    .siteName {
+        display: flex;
+        h1 {
+            margin: 0;
+            padding-left: 10px;
+            color: #eceff1;
+        }
+    }
+
+    .nav-content {
+        display: flex;
+
+        button {
+            font-family:'Courier New', Courier, monospace;
+            font-weight: 600;
+            color: #263238;
+            margin-top: 5px;
+            width: 150px;
+            background-color: #b0bec5;
+        }
+    }
+}
+
+.logoBlack {
+    width: 50px;
+    margin: 10px 0 0 20px;
+}
+
+.sectionOrder {
+    width: 100%;
+    background: rgba(99, 98, 98, 0.65);
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 1000;
+
+    .orderForm {
+        width: 60%;
+        min-height: 1200px;
+        margin: 0 auto;
+        position: relative;
+        top: 80px;
+
+        .formWindow {
+            background: #eceff1;
+            min-height: 500px;
+
+            .nameOrderWindow {
+                display: flex;
+                justify-content: space-between;                
+
+                h4 {
+                    margin: 10px;
+                    color: #455a64;
+                    font-weight: 600;
+                }
+
+                .closedFormWindow {
+                    font-size: 1.3em;
+                }
+            }
+            
+            .orderFields {
+
+                .buscket {
+                    height: 500px;
+                    overflow-y: scroll;
+                    font-size: 20px;
+
+                    .headOfTable th{
+                        padding: 5px 10px;
+                        text-align: center;
+                    }
+                    .bodyOfTable{
+                        
+                        td{
+                            padding: 5px;
+                    
+                            img {
+                                padding: 5px;
+                                border-radius: 50%;
+                            }
+                            p {
+                                margin: 0;
+                            }
+                            a {
+                                margin-left: 15px;
+                            }
+                        }
+                    }
+                    .lineItemOrder {
+                        .photoItemOrder {
+                            width: 75px;
+                        }
+                        .remove-btn {
+                            background-color: #cfd8dc;
+                            width: 50px;
+                            height: 50px;
+                            border-radius: 50%;
+                            border: 3px groove #78909c;
+                            margin: 0;
+                            font-size: 30px;
+                            color: #78909c;
+                    
+                            &:hover {
+                                background-color: #78909c;
+                                color: #ffffff;
+                            }
+                        }
+                        .costItemOrder, .countItemOrder  {
+                            text-align: center;
+                        }
+                        .amountItemOrder {
+                            padding-left: 40%;
+                        }
+                        .countArrows {
+                            display: flex;
+                            justify-content: space-between;
+                            margin-top: 15%;
+
+                            .countItemOrder {
+                                padding: 0 5px;
+                            }
+                            
+                            .countMinus-btn, .countPlus-btn {
+                                width: 35px;
+                                height: 35px;
+                                border-radius: 50%;
+                                border: 3px groove #78909c;
+                                background-color: #cfd8dc;
+                                font-size: 30px;
+                                margin: 0;
+                                padding: 0;
+                                color: #78909c;
+
+                                &:hover {
+                                    background-color: #78909c;
+                                    color: #ffffff;
+                                    }
+    
+
+                            }
+                        }
+                    }
+                    
+                }
+
+                .payAmount {
+                    font-size: 30px;
+                    font-weight: 600;
+                    padding-left: 50px;
+                    padding-top: 10px;
+                    border-top: 1px solid #cfd8dc;
+
+                    .totalAmount {
+                        margin-left: 300px;
+                    }
+                }
+
+                .clientFields {
+                    margin: 10px;
+                    border-top: 1px solid #cfd8dc;
+                    padding-top: 10px;
+
+                    .nameInput, .phoneInput, .emailInput {
+                        display: flex;
+
+                        img {
+                            width: 30px;
+                            margin-right: 10px;
+                        }
+
+                        input:invalid {
+                            border: 1px dashed red;
+                          }
+                          
+                          input:valid {
+                            border: 1px solid green;
+                          }
+                    }
+                }
+
+                .sendFormBlock {
+                    margin: 10px 0 20px 300px;
+
+                    p {
+                        margin: 0;
+                    }
+                }
+
+                button {
+                    font-family:'Courier New', Courier, monospace;
+                    font-weight: 600;
+                    color: #263238;
+                    width: 250px;
+                    background-color: #b0bec5;
+                    margin: 20px 0 20px 35%;
+                    font-size: 30px;
+
+                    &:hover {
+                        background-color: #78909c;
+                        color: #ffffff;
+                        font-weight: 600;
+                    }
+
+                }
+            }
+        }
+        
+        .anotherOrder {
+            margin-left: 300px;
+            width: 200px;
+
+            button {
+                font-family:'Courier New', Courier, monospace;
+                border: none;
+                color: #3f51b5;
+                padding: 0;
+                margin: 0;
+                margin-bottom: 15px;
+
+                &:hover {
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
+
+.closed {
+    display: none;
+}
+
+.mainBody {
+    width: 100%;
+    min-height: 1000px;
+    background-image: url('/images/polygon.jpg');
+    background-size: 200%;
+
+    .sectionGoods {
+        margin: 0 auto;
+        width: 80%;
+        background-color: rgba(245, 245, 245, 0.548);
+        background-blend-mode: saturation;
+        min-height: 1300px;
+        position: relative;
+
+        .goodsList {
+            padding: 150px 0 50px 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+
+            div {
+                width: 250px;
+                margin: 10px;
+
+                p {
+                    padding: 0;
+                    margin: 0;
+                }
+                .cost {
+                    font-weight: bold;
+                }
+
+                img {
+                    padding: 20px 0 0 20px;
+                    width: 200px;
+                }
+            }
+        }
+    }
+}
+
+
+footer {
+    width: 100%;
+    background: #263238;
+    height: 50px;
+    color: #eceff1;
+    padding: 20px 0 0 30px;
+    position: fixed;
+    left: 0; bottom: 0;
+}
