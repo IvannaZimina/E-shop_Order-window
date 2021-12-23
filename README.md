@@ -14,6 +14,9 @@ Node.js, Express.js, EJS, JS native, EJS, Bootstrap, Sass (SCSS).
     3) form with inputs to add personal data of client;
     4) send order with axios to route on back by button “SEND ORDER”.
  Make route on back to get order’s data.
+ 
+## Environment
+Clone repositore on your machine. Use npm install to add all dependencies in project and open web-app.
 
 ## View
 ![image](https://user-images.githubusercontent.com/46706194/146979811-4947fb52-f994-41a8-9185-0e9270e5970a.png)
