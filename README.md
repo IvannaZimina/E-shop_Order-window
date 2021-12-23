@@ -1,5 +1,5 @@
 ## Task
-Create a Node.js-app using Express.js. Use EJS for view.
+Create a web-app with order-window to buy some goods.
 
 ## Stack
 Node.js, Express.js, EJS, JS native, EJS, Bootstrap, Sass (SCSS).
