@@ -1,19 +1,18 @@
 ## Task
-Create a web-app with order-window to buy some goods.
+Create a web-app with order window to buy some goods.
 
 ## Stack
 Node.js, Express.js, EJS, JS native, EJS, Bootstrap, Sass (SCSS).
 
 ## Description
- Create web page with cards of goods (items). Using style of Bootstrap and own styles with Sass.
- Create order window (order) as pop-up window with: items, count, price, amount, personal data.
- Add items to order using button “ADD TO BUCKET”
- There are some options in order:
-    1) changing count buttons of items (+ \ -);
-    2) auto changing amount of items and whole order by changing count;
-    3) form with inputs to add personal data of client;
-    4) send order with axios to route on back by button “SEND ORDER”.
- Make route on back to get order’s data.
+There was created a web page with cards of goods (items) using the library of Bootstrap and own styles with Sass.
+There was created an order window (furtheron: the Order) as a pop-up window with: items, count, price, order total, personal data.
+There was implemented the addition of items to an order using button “ADD TO BASKET”
+The Order contains the followings options:
+1) buttons to manually change count of items (+ \ -);
+2) auto change of amount while changing the count;
+3) processing of the form with inputs to add personal data of a customer;
+4) send order with AXIOS to a router on back-end by button “SEND ORDER”.
  
 ## Environment
 Clone repositore on your machine. Use npm install to add all dependencies in project and open web-app.
