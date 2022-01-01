@@ -2,18 +2,18 @@
 Create a web-app with order window to buy some goods.
 
 ## Stack
-# Backend:  JavaScript, Node.js, Express.js, REST API, AJAX
-# Frontend: JavaScript, EJS, localStorage, Sass (SCSS), Bootstrap
+### Backend:  JavaScript, Node.js, Express.js, REST API, AJAX
+### Frontend: JavaScript, EJS, localStorage, Sass (SCSS), Bootstrap
 
 ## Description
 
-# Backend
+### Backend
 There was created basic Node.js app with Express.js using MVC with the next modules:
 -	Server module: contain main app file with base configurations of app, PORT and connection to DB;
 -	Model module: created imitation model DB entities in MongoDB using array of goods;
 -	Routes module: built REST API architecture using GET methods;
 	
-# Frontend
+### Frontend
 There were created:
 -	a web page with cards of goods (items) using the library of Bootstrap and own styles with Sass;
 -	an order window as a pop-up window with: items, count, price, order total, personal data.
