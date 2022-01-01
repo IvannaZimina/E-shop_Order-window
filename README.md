@@ -2,8 +2,8 @@
 Create a web-app with order window to buy some goods.
 
 ## Stack
-Backend:  JavaScript, Node.js, Express.js, REST API, AJAX
-Frontend: JavaScript, EJS, localStorage, Sass (SCSS), Bootstrap
+# Backend:  JavaScript, Node.js, Express.js, REST API, AJAX
+# Frontend: JavaScript, EJS, localStorage, Sass (SCSS), Bootstrap
 
 ## Description
 
