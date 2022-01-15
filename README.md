@@ -8,25 +8,24 @@ Create a web-app with order window to buy some goods.
 ## Description
 
 ### Backend
-There was created basic Node.js app with Express.js using MVC with the next modules:
--	Server module: contain main app file with base configurations of app, PORT and connection to DB;
--	Model module: created imitation model DB entities in MongoDB using array of goods;
--	Routes module: built REST API architecture using GET methods;
+A basic Node.js app with Express.js using MVC comprising the next modules:
+-	Server module: houses the main app file with base configurations of the application, PORT and connection to DB;
+-	Model module: contains imitation model DB entities in MongoDB using array of goods;
+-	Routes module: REST API architecture using GET methods.
 	
 ### Frontend
-There were created:
--	a web page with cards of goods (items) using the library of Bootstrap and own styles with Sass;
--	an order window as a pop-up window with: items, count, price, order total, personal data.
-
-There was implemented:
+Web-pages generated with EJS template maker:
+-	 a page with cards of goods (items) using the Bootstrap library and custom own styles with Sass;
+-	an order window as a pop-up window with items, count, price, order total, personal data.
+The following features were implemented:
 -	the addition of items to an order using button “ADD TO BASKET”;
--	save information of an order in local storage until it sent to back-end, reset local storage after sending the order;
--	followings options in the order window using native JavaScript:
+-	saving the information of an order in a local storage until it is sent to back-end;
+-	resetting the local storage after sending the order;
+-	the following options in the order window using native JavaScript:
 1) click buttons to manually change count of items (+ \ -);
 2) function to auto change of amount while changing the count;
 3) processing of the form with inputs to add personal data of a customer;
 4) send order with axios to a router on back-end by button “SEND ORDER”.
-
  
 ## Environment
 Clone repositore on your machine. Use npm install to add all dependencies in project and open web-app.
