@@ -17,7 +17,7 @@ A basic Node.js app with Express.js using MVC comprising the next modules:
 	
 ### Frontend
 Web-pages generated with EJS template maker:
--	 a page with cards of goods (items) using the Bootstrap library and custom own styles with Sass;
+-	 a page with cards of goods (items) using the Bootstrap library and custom styles with Sass;
 -	an order window as a pop-up window with items, count, price, order total, personal data.
 The following features were implemented:
 -	the addition of items to an order using button “ADD TO BASKET”;
